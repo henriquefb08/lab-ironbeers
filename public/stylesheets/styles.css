@@ -5,3 +5,48 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+.index-general {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: center;
+    
+}
+.brejinha { 
+    height:400px;
+    width: auto;
+
+}
+.index-general > button { 
+margin-top: 20px;  
+background-color: #2081c3;
+box-shadow:2px 2px 2px 1px;
+}
+
+.index-general > button > a { 
+    text-decoration: none;
+    color: white;
+}
+
+.menu-breja { 
+    display: flex;
+    background-color:#2081c3;
+    color: white; 
+    flex-direction: row;
+    margin-bottom: 30px;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+
+}
+.menu-breja  a { 
+        flex-direction: row;
+        align-items: center;
+        align-content: flex-end; 
+        text-decoration: none;
+        color:white;
+}
+
+.btn-shadow { 
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5) !important; 
+}
